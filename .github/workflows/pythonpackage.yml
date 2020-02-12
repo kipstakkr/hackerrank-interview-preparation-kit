@@ -9,7 +9,7 @@ jobs:
     name: Linting and Testing
     runs-on: ubuntu-latest
     env:
-      PYTHON_VERSION: 3.7.6
+      PYTHON_VERSION: '3.7.6'
 
     steps:
     - uses: actions/checkout@v2
