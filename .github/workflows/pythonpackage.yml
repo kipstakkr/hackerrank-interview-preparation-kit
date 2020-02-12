@@ -9,11 +9,11 @@ jobs:
     name: Linting and Testing
     runs-on: ubuntu-latest
     env:
-      PYTHON_VERSION: 3.7.5
+      PYTHON_VERSION: 3.7.6
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python $PYTHON_VERSION
+    - name: Set up Python
       uses: actions/setup-python@v1
       with:
         python-version: $PYTHON_VERSION
