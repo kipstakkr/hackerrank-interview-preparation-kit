@@ -25,3 +25,4 @@ jobs:
       run: |
         pip install -r requirements/requirements-test.txt
         pytest --cov=interview_preparation_kit --cov-branch
+        coverage-badge
