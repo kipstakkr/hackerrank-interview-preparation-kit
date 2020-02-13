@@ -28,4 +28,4 @@ jobs:
       run: |
         pip install -r requirements/requirements-test.txt
         pytest --cov=interview_preparation_kit --cov-branch
-        codecov --token=$CODEOCV_TOKEN
+        codecov --token=$CODECOV_TOKEN
