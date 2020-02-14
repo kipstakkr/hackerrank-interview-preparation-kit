@@ -27,5 +27,5 @@ jobs:
     - name: Test with pytest
       run: |
         pip install -r requirements/requirements-test.txt
-        pytest --cov=interview_preparation_kit --cov-branch
+        pytest --cov=interview_preparation_kit --cov-branch --hypothesis-show-statistics
         codecov --token=$CODECOV_TOKEN
