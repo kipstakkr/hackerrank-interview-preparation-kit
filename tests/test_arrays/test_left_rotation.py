@@ -15,7 +15,7 @@ def test_rotate_left(array, shift):
     """rotate_left() should return the given array after performing `shift` left shifts."""
     assume(shift <= len(array))
 
-    temp_array = deque(array).copy()
+    temp_array = deque(array)
 
     # negative for left shifts
     temp_array.rotate(-shift)
