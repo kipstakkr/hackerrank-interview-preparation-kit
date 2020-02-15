@@ -5,7 +5,7 @@ Problem
 -------
 Whenever a new movie of a popular actor/actress is yet to release in cinemas, fans would like to
 watch the FDFS of the movie along with family/friends. But there is no online portal to book
-tickets in the city, and thus they have to physically present in the cinema to book tickets.
+tickets in the city, and thus they have to physically go to the cinemas to book tickets.
 In this city, people like to follow queue system. But even with this, some people would like to
 make use of this opportunity to earn quick bucks/bribes.
 
