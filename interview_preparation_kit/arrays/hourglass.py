@@ -34,8 +34,9 @@ def hourglass_sum(array):  # for a 6 x 6 array => T(4 * 4 * 3), S(1)
 
             top = sum(array[row][column: column + hourglass_length])  # T(3)
             mid = array[row + 1][column + 1]
-            bottom = sum(array[row + hourglass_length - 1][column: column + hourglass_length])
-            # T(3)
+            bottom = sum(
+                array[row + hourglass_length - 1][column: column + hourglass_length]
+            )  # T(3)
 
             total_sum = top + mid + bottom
             if total_sum > max_sum:
