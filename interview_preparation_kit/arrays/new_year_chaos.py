@@ -44,7 +44,7 @@ def get_min_bribes(queue):
     person_1, person_2 = (float('Inf'),) * 2
 
     # loop through the queue in reverse order
-    for index in range(len(queue) - 1, -1, -1):
+    for index in reversed(range(len(queue))):
 
         # 'too chaotic'
         if queue[index] - (index + 1) > 2:
