@@ -1,5 +1,5 @@
 """
-Contains the solution to problem 3 of the array section.
+Contains the solution to problem 4 of the array section.
 
 Problem
 -------
