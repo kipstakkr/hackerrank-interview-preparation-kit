@@ -18,7 +18,7 @@ Constraints
 """
 
 
-def get_min_swaps(array):
+def get_min_swaps(array):  # T(n), S(n)
     """Return the minimum number of swaps required to make the array sorted."""
     swaps = 0
 
@@ -26,11 +26,11 @@ def get_min_swaps(array):
     # thus the temporary array will act as a lookup table and will contain:
     # index => value of the given array
     # value => corresponding index of the given array
-    look_up = [0] * (len(array) + 1)
-    for index, value in enumerate(array):
+    look_up = [0] * (len(array) + 1)  # S(n)
+    for index, value in enumerate(array):  # T(n)
         look_up[value] = index
 
-    for index in range(len(array)):
+    for index in range(len(array)):  # T(n)
         # as the value start from 1
         position_value = index + 1
 
