@@ -20,7 +20,7 @@ Constraints
 """
 
 
-def hourglass_sum(array):
+def hourglass_sum(array):  # for a 6 x 6 array => T(4 * 4 * 3), S(1)
     """Return the maximum hourglass sum of the given array."""
     # the row and column length of each hourglass
     hourglass_length = 3
@@ -29,12 +29,14 @@ def hourglass_sum(array):
     num_hourglasses = 4
 
     max_sum = float('-Inf')
-    for row in range(num_hourglasses):
-        for column in range(num_hourglasses):
+    for row in range(num_hourglasses):  # T(4)
+        for column in range(num_hourglasses):  # T(4)
 
-            top = sum(array[row][column: column + hourglass_length])
+            top = sum(array[row][column: column + hourglass_length])  # T(3)
             mid = array[row + 1][column + 1]
-            bottom = sum(array[row + hourglass_length - 1][column: column + hourglass_length])
+            bottom = sum(
+                array[row + hourglass_length - 1][column: column + hourglass_length]
+            )  # T(3)
 
             total_sum = top + mid + bottom
             if total_sum > max_sum:
