@@ -29,7 +29,7 @@ Constraints
 """
 
 
-def get_min_bribes(queue):
+def get_min_bribes(queue):  # T(n), S(1)
     """Return the minimum number of bribes that took place in the given queue."""
     bribes = 0
 
@@ -44,7 +44,7 @@ def get_min_bribes(queue):
     person_1, person_2 = (float('Inf'),) * 2
 
     # loop through the queue in reverse order
-    for index in reversed(range(len(queue))):
+    for index in reversed(range(len(queue))):  # T(n)
 
         # 'too chaotic'
         if queue[index] - (index + 1) > 2:

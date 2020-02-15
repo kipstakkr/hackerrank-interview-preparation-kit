@@ -17,6 +17,6 @@ Constraints
 """
 
 
-def rotate_left(array, shift):
+def rotate_left(array, shift):  # T(n), S(1)
     """Return the resultant array after performing `shift` left shifts on the given array."""
     return array[shift:] + array[:shift]
