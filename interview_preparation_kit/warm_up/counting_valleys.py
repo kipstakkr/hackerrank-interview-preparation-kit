@@ -18,9 +18,9 @@ Given Gary's sequence of up and down steps during his last hike, find the number
 walked through.
 
 For example,
-    if Gary's path (represented as a string `s`) `DDUUUUDD`, he first enters a valley `2` units
-    deep. Then he climbs out and up onto a mountain `2` units high. Finally, he returns to sea
-    level and ends his hike.
+    if Gary's path (represented as a string `s`) is `DDUUUUDD`, he first enters a valley `2`
+    units deep. Then he climbs out and up onto a mountain `2` units high. Finally, he returns to
+    sea level and ends his hike.
 
 Write a function to return an integer representing the number of valleys Gary walked through from
 the given step sequence.
