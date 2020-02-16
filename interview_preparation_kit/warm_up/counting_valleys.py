@@ -34,11 +34,11 @@ Constraints
 """
 
 
-def number_of_valleys(string):
+def number_of_valleys(string):  # T(n), S(1)
     """Return the number of valleys present in the given string representing step sequence."""
     valleys, step_units = 0, 0
     up, down = 'U', 'D'
-    for step in string:
+    for step in string:  # T(n)
         if step == up:
             step_units += 1
             if not step_units:

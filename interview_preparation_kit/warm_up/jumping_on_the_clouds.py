@@ -1,5 +1,5 @@
 """
-Contains the solution to problem 2 of the warm up section.
+Contains the solution to problem 3 of the warm up section.
 
 Problem
 -------
@@ -24,11 +24,11 @@ Constraints
 """
 
 
-def number_of_jumps(clouds):
+def number_of_jumps(clouds):  # T(n), S(1)
     """Return the minimum number of jumps to make in the given clouds list to win the game."""
     num_jumps = 0
     jump_index = 0
-    while jump_index + 1 < len(clouds):
+    while jump_index + 1 < len(clouds):  # T(n)
         if jump_index + 2 < len(clouds) and not clouds[jump_index + 2]:
             jump_index += 2
         else:
