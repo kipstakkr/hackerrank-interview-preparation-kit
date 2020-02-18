@@ -8,6 +8,7 @@ import pytest
 @pytest.mark.parametrize(
     'mock_string, mock_infinite_string_length, expected_result',
     [
+        ('pneumonoultramicroscopicsilicovolcanoconiosis', 40, 2),
         ('aba', 10, 7),
         ('a', 10 ** 11, 10 ** 11),
         ('abcac', 10, 4),
