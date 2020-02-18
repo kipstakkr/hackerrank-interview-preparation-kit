@@ -31,6 +31,10 @@ from collections import Counter
 
 def check_magazine(magazine, note):  # T(n), S(m)
     """Return `Yes` if the note can be formed using the magazine, else `No`."""
+    # check if the length of note is greater than magazine
+    if len(note) > len(magazine):
+        return 'No'
+
     magazine_dict = Counter(magazine)  # S(m)
     for word in note:  # T(n)
         # if the word does not exists (None) and if the count of the word is zero (0)

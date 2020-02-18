@@ -32,6 +32,11 @@ import pytest
             ['wait', 'a', 'minute', 'is', 'that', 'place', 'the', 'sun'],
             ['is', 'that', 'place', 'the', 'sun'],
             'Yes'
+        ),
+        (
+            ['sing', 'in', 'the', 'rain'],
+            ['sing', 'in', 'the', 'rain', 'iam', 'sing', 'in', 'the', 'rain'],
+            'No'
         )
     ]
 )
