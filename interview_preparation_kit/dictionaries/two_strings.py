@@ -1,5 +1,5 @@
 """
-Contains the solution to problem 2 of the Dictionaries and Hashmaps section.
+Contains the solution to problem 2 of the Dictionaries section.
 
 Problem
 -------
@@ -11,10 +11,10 @@ common substring.
 
 Constraints
 -----------
-* 1 <= |s1|, |s2| <= 10 ** 5
-* s1[i], s2[j] = ascii[a-z] (lowercase alphabets)
-* 0 <= i < |s1|
-* 0 <= j < |s2|
+*   1 <= |s1|, |s2| <= 10 ** 5
+*   s1[i], s2[j] = ascii[a-z] (lowercase alphabets)
+*   0 <= i < |s1|
+*   0 <= j < |s2|
 
 """
 

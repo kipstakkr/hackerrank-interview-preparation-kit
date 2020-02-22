@@ -1,5 +1,5 @@
 """
-Contains the solution to problem 1 of the Dictionaries and Hashmaps section.
+Contains the solution to problem 1 of the Dictionaries section.
 
 Problem
 -------

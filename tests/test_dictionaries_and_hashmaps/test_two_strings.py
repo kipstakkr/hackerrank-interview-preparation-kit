@@ -1,6 +1,6 @@
-"""Tests for the interview_preparation_kit.dictionaries_and_hashmaps.two_strings module."""
+"""Tests for the interview_preparation_kit.dictionaries.two_strings module."""
 
-from interview_preparation_kit.dictionaries_and_hashmaps.two_strings import check_common_substring
+from interview_preparation_kit.dictionaries.two_strings import check_common_substring
 
 import pytest
 

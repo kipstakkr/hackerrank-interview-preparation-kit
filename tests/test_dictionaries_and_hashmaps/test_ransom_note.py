@@ -1,6 +1,6 @@
-"""Tests for the interview_preparation_kit.dictionaries_and_hashmaps.ransom_note module."""
+"""Tests for the interview_preparation_kit.dictionaries.ransom_note module."""
 
-from interview_preparation_kit.dictionaries_and_hashmaps.ransom_note import check_magazine
+from interview_preparation_kit.dictionaries.ransom_note import check_magazine
 
 import pytest
 
