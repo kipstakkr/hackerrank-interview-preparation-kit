@@ -1,6 +1,8 @@
 """
 Contains the solution to problem 1 of the Dictionaries and Hashmaps section.
 
+Problem
+-------
 Harold is a kidnapper who wrote a ransom note, but now he is worried it will be traced back to him
 through his handwriting. He found a magazine and wants to know if he can cut out entire words from
 it and use them to create an untraceable replica of his ransom note. The words in his note are
